@@ -1,0 +1,52 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;  /* Para que cada rem sea el equivalente a 10px */
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body{
+    background-color: #aaa;
+    font-family: 'Zen Loop', cursive;
+}
+
+header{
+    text-align: center;
+}
+
+.titulo{
+    font-size: 4rem;
+}
+
+.cita{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 3rem;
+    text-align: center;
+}
+p{
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+img{
+    width: 50%;
+    border: 0.5rem double black;
+}
+
+p span{
+    font-weight: 700;;
+}
+
+footer{
+    margin-top: 5rem;
+}
+
+footer a{
+    color: blue;
+}
